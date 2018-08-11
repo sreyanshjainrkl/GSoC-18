@@ -18,8 +18,8 @@ The project has two parts divided as follows:
 * HYP:        https://sourceforge.net/p/brlcad/patches/489/
 * ARBN:       https://sourceforge.net/p/brlcad/patches/490/
 * DSP:        https://sourceforge.net/p/brlcad/patches/492/
+* VOL:        https://sourceforge.net/p/brlcad/patches/513/
 * METABALL:
 * PIPE:
-* VOL:
 * BREP:
 
