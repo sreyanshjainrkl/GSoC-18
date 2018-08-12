@@ -19,7 +19,7 @@ The project has two parts divided as follows:
 * ARBN:       https://sourceforge.net/p/brlcad/patches/490/
 * DSP:        https://sourceforge.net/p/brlcad/patches/492/
 * VOL:        https://sourceforge.net/p/brlcad/patches/513/
-* METABALL:
-* PIPE:
+* METABALL:   https://sourceforge.net/p/brlcad/patches/517/
+* PIPE:       
 * BREP:       https://sourceforge.net/p/brlcad/patches/516/
 
