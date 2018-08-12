@@ -21,5 +21,5 @@ The project has two parts divided as follows:
 * VOL:        https://sourceforge.net/p/brlcad/patches/513/
 * METABALL:
 * PIPE:
-* BREP:
+* BREP:       https://sourceforge.net/p/brlcad/patches/516/
 
