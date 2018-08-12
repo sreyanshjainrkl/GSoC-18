@@ -11,7 +11,7 @@ The project has two parts divided as follows:
 * Developing BREP support involving porting the generic ray-BREP intersection code.
 
 **Project Plan:**       https://brlcad.org/wiki/User:Sreyanshjainrkl/GSoC18/Project              
-**Development Logs:**   https://https://brlcad.org/wiki/User:Sreyanshjainrkl/GSoC18/Log
+**Development Logs:**   https://brlcad.org/wiki/User:Sreyanshjainrkl/GSoC18/Log
 
 ## Patches
 The link to the patches submitted are given below. The corresponding source code for OpenCL shot routines are attached in this GitHub repository.
