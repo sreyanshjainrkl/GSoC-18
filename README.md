@@ -27,10 +27,10 @@ The link to the patches submitted are given below. The corresponding source code
 * BREP:       https://sourceforge.net/p/brlcad/patches/516/
 
 ## BREP support details
-**Objective**
+**Objective: **
 Port the generic ray-BREP intersection code rt_brep_shot()
 
-**Basic Approach**
+**Basic Approach:**
 1. Converting C++ class to OpenCL/C struct
 2. Converting implicit functions used in rt_brep_shot() to C
 3. Defining BBNode, BRNode, OpenNURBS library related struct and functions
