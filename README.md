@@ -8,12 +8,14 @@ BRL-CAD objects are made from about two dozen primitives, ray-tracing of which c
 ## Methodology
 The project has two parts divided as follows:
 * Accelerating primitives by porting the ray-primitive intersection (shot) code from C to OpenCL and provide the glue code which packs and unpacks that primitive from the C side to the OpenCL side.
-* Developing BREP support involves serializing the ‘ON_BREP *’ of the primitives and passing it to the GPU and then porting the generic ray-BREP intersection code.
+* Developing BREP support involving porting the generic ray-BREP intersection code.
 
 **Project Plan:**       https://brlcad.org/wiki/User:Sreyanshjainrkl/GSoC18/Project              
 **Development Logs:**   https://https://brlcad.org/wiki/User:Sreyanshjainrkl/GSoC18/Log
 
 ## Patches
+The link to the patches submitted are given below. The corresponding source code for OpenCL shot routines are attached in this GitHub repository.
+
 * SUPERELL:   https://sourceforge.net/p/brlcad/patches/477/
 * HYP:        https://sourceforge.net/p/brlcad/patches/489/
 * ARBN:       https://sourceforge.net/p/brlcad/patches/490/
@@ -25,9 +27,12 @@ The project has two parts divided as follows:
 * BREP:       https://sourceforge.net/p/brlcad/patches/516/
 
 ## BREP support details
+**Objective**
+Port the generic ray-BREP intersection code rt_brep_shot()
+
 **Basic Approach**
 1. Converting C++ class to OpenCL/C struct
-2. Converting implicit functions used in rt_brep_shot to C
+2. Converting implicit functions used in rt_brep_shot() to C
 3. Defining BBNode, BRNode, OpenNURBS library related struct and functions
 
 **Specific Tasks Pending:**
