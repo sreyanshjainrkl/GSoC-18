@@ -20,6 +20,6 @@ The project has two parts divided as follows:
 * DSP:        https://sourceforge.net/p/brlcad/patches/492/
 * VOL:        https://sourceforge.net/p/brlcad/patches/513/
 * METABALL:   https://sourceforge.net/p/brlcad/patches/517/
-* PIPE:       
+* PIPE:       https://sourceforge.net/p/brlcad/patches/518/
 * BREP:       https://sourceforge.net/p/brlcad/patches/516/
 
