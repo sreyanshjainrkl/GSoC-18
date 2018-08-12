@@ -21,5 +21,16 @@ The project has two parts divided as follows:
 * VOL:        https://sourceforge.net/p/brlcad/patches/513/
 * METABALL:   https://sourceforge.net/p/brlcad/patches/517/
 * PIPE:       https://sourceforge.net/p/brlcad/patches/518/
+
 * BREP:       https://sourceforge.net/p/brlcad/patches/516/
 
+## BREP support details
+**Basic Approach**
+1. Converting C++ class to OpenCL/C struct
+2. Converting implicit functions used in rt_brep_shot to C
+3. Defining BBNode, BRNode, OpenNURBS library related struct and functions
+
+**Specific Tasks Pending:**
+1. Define dimension(), Evaluate(..) and Domain() functions.
+2. Convert intersectsHierarchy(..) from recursive to iterative to return length.
+3. Define ON_BrepFace and ON_Surface struct.
